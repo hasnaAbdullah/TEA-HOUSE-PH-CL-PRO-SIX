@@ -34,7 +34,7 @@
   </head>
   <body class="font-['Manrope']">
     <!-- main content -->
-    <main class="max-w-screen-xl mx-auto px-2">
+    <main class="max-w-[1200px] mx-auto px-2">
       <!-- header -->
       <header
         class="py-9 space-y-8 max-w-[400px] mx-auto sm:flex sm:justify-between sm:items-center sm:max-w-[750px] sm:space-y-0 md:max-w-[900px] lg:max-w-[100%] lg:space-x-16"
@@ -72,20 +72,82 @@
 
           <!-- card container -->
           <div
-            class="flex items-center space-x-3 shadow-lg rounded-md px-5 py-3 bg-white relative z-5 -mt-10 -ml-8"
+            class="flex items-center space-x-3 shadow-lg rounded-md px-5 py-3 bg-white relative z-5 -mt-10 -ml-8 lg:px-7 lg:py-5 lg:-mt-24 lg:-ml-32"
           >
             <!-- card star icon -->
             <div>
-              <i class="fa-solid fa-star text-lg text-amber-400"></i>
+              <i class="fa-solid fa-star text-lg text-amber-400 lg:text-xl"></i>
             </div>
             <!-- card text -->
             <div class="">
-              <h2 class="font-bold text-lg">5.00</h2>
-              <p class="text-xs text-gray-500">Trust Pilot Ratings</p>
+              <h2 class="font-bold text-lg lg:text-xl">5.00</h2>
+              <p class="text-xs text-gray-500 lg:text-sm">
+                Trust Pilot Ratings
+              </p>
             </div>
           </div>
         </div>
       </header>
+
+      <!-- our featured products section -->
+      <section class="my-12">
+        <!-- featured description -->
+        <div class="max-w-[900px] mx-auto text-center space-y-3">
+          <h2 class="text-2xl font-bold">Our Featured Products</h2>
+          <p class="text-sm text-gray-500 font-medium">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+
+        <!-- featured's cards -->
+        <div
+          class="grid mt-10 gap-6 sm:grid-cols-2 sm:justify-center md:max-w-[720px] md:mx-auto lg:max-w-full lg:grid-cols-4"
+        >
+          <!-- card 1 -->
+          <div
+            class="p-7 text-center space-y-1 w-64 mx-auto flex flex-col items-center shadow-sm rounded-xl bg-gradient-to-b from-gray-200 to-white lg:max-w-[240px]"
+          >
+            <img src="images/tea-1.png" alt="" />
+            <h2 class="pt-7 font-bold text-lg">Milk Tea</h2>
+            <p class="text-sm font-medium text-gray-500">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <!-- card 2-->
+          <div
+            class="p-7 text-center space-y-1 w-64 mx-auto flex flex-col items-center shadow-sm rounded-xl bg-gradient-to-b from-gray-200 to-white lg:max-w-[240px]"
+          >
+            <img src="images/tea-2.png" alt="" />
+            <h2 class="pt-7 font-bold text-lg">Black Tea</h2>
+            <p class="text-sm font-medium text-gray-500">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <!-- card 3-->
+          <div
+            class="p-7 text-center space-y-1 w-64 mx-auto flex flex-col items-center shadow-sm rounded-xl bg-gradient-to-b from-gray-200 to-white lg:max-w-[240px]"
+          >
+            <img src="images/tea-3.png" alt="" />
+            <h2 class="pt-7 font-bold text-lg">Lemon Tea</h2>
+            <p class="text-sm font-medium text-gray-500">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <!-- card 4-->
+          <div
+            class="p-7 text-center space-y-1 w-64 mx-auto flex flex-col items-center shadow-sm rounded-xl bg-gradient-to-b from-gray-200 to-white lg:max-w-[240px]"
+          >
+            <img src="images/tea-4.png" alt="" />
+            <h2 class="pt-7 font-bold text-lg">Green Tea</h2>
+            <p class="text-sm font-medium text-gray-500">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
